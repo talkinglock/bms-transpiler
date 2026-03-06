@@ -7,7 +7,7 @@ Source classes are lightly modified.
 
 ## TECHNICAL ##
 
-The BMST is primarily coded in Lua using the [LuaJIT](https://luajit.org/) (Just in time) compiler. You do not need to install Lua/LuaJIT to run the transpiler, as they are already included inside the project.
+The BMST is primarily coded in Lua using the [LuaJIT](https://luajit.org/) (Just in time) compiler. LuaJIT is included.
 
 ## INSTALL ##
 
