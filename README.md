@@ -1,0 +1,9 @@
+## Black Mesa Source Transpiler ##
+
+The *Black Mesa Source Transpiler* project (BMST) is designed to convert maps from *Black Mesa's* XenEngine into *Source 2013* with as minimal loss in quality as possible. It will achieve this by using primarily the [Refab](src/resources/refabs/readme.md) system.
+
+While this project is designed for the *Black Mesa Source VR 2026* project, it should work with any lightly-modified Source 2013 instance.
+
+## TECHNICAL ##
+
+The BMST is primarily coded in Lua using the [LuaJIT](https://luajit.org/) (Just in time) compiler. You do not need to install Lua/LuaJIT to run the transpiler, as they are already included inside the project.
