@@ -6,9 +6,16 @@ local vmfparse = require("include.vmfparse")
 local transpiler = require("include.transpiler")
 
 function Main()
+
+    out.info("################")
+    out.info("BMSS TRANSPILER")
+    out.info("################")
+    io.write('\n')
+
     local validPath = false
     local xenMapPath
     local xenMap
+    
     repeat
         out.good("Path to Black Mesa map: ")
         xenMapPath = "../" .. io.read()
@@ -19,7 +26,7 @@ function Main()
             out.warn("\nPath invalid!")
         end
     until validPath == true
-    
+    local xenMapFileName = xenMapPath:match("[^/\\]+$")
 
     out.info("Parsing .vmf into table...")
     local parsedXenMap, linesParsed, timeTaken = vmfparse.parseFromFile(xenMap)
@@ -33,9 +40,11 @@ function Main()
     local finalString = vmfparse.tableToString(transpiledTable)
     out.good("Reverse parse completed!")
 
-    local output = io.open("../output/".. xenMapPath:match("[^/\\]+$"), "w")
-    output:write(finalString)
 
+    local output = io.open("../output/".. xenMapFileName, "w")
+    output:write(finalString)
+    local log = io.open("../output/" .. xenMapFileName .. ".log", "w")
+    log:write(out.getLog())
     out.info("These were the incompatible types: ")
 
     out.table(incompats)

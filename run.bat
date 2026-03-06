@@ -1,2 +1,3 @@
+@echo off
 cd src
-luajit main.lua
+"../thirdparty/luajit/luajit/src/luajit.exe" main.lua

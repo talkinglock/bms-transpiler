@@ -1,0 +1,10 @@
+[INFO] ################
+[INFO] BMSS TRANSPILER
+[INFO] ################
+[GOOD] Path to Black Mesa map: 
+[INFO] Parsing .vmf into table...
+[GOOD] Parsing completed! Parsing took 0.142 seconds, parsed 338884 lines and recorded 5927 entities.
+[INFO] Transpiling...
+[GOOD] Transpiling completed! 5805 entities transpiled, and there were 24 incompatible *types* (not entities).
+[INFO] Reverse parsing...
+[GOOD] Reverse parse completed!

@@ -1,3 +1,0 @@
-[submodule "thirdparty/luajit/luajit"]
-	path = thirdparty/luajit/luajit
-	url = https://luajit.org/git/luajit.git
