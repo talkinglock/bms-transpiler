@@ -24,21 +24,9 @@ function m.log(text)
     table.insert(log, "[INFO] "..text.."\n")
 end
 
-function m.table(tableVal, indent)
-    indent = indent or "" -- Default to empty string if not provided
-
-    for key, value in pairs(tableVal) do
-        if type(value) == "table" then
-            m.log(indent .. key .. " = {")
-            -- Increase indentation for the next level
-            m.table(value, indent .. "  ") 
-            m.log(indent .. "}")
-        else
-            if not (type(value) == "string") then
-                value = "not string"
-            end
-            m.log(indent .. key .. " = " .. tostring(value))
-        end
+function m.table(tableVal)
+    for _, obj in pairs(tableVal) do
+        m.info(tostring(obj))
     end
 end
 
