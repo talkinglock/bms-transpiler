@@ -1,4 +1,0 @@
-local math = {}
-
-
-return math
