@@ -6,9 +6,8 @@ While this project is designed for the *Black Mesa Source VR 2026* project, it s
 Source classes are lightly modified.
 
 ## TECHNICAL ##
-
 The BMST is primarily coded in Lua using the [LuaJIT](https://luajit.org/) (Just in time) compiler. LuaJIT is included.
 
 ## INSTALL ##
 
-Download the zip and run 'run.bat'. That easy.
+Download the zip and run 'run.bat', **YOU MUST USE HAMMER++ TO OPEN THE FILE!** No idea why. Probably because I suck at coding.

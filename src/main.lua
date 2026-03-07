@@ -3,6 +3,7 @@
 ]]--
 local out = require("include.output")
 local vmfparse = require("include.vmfparse")
+local std = require("include.std.standard")
 local transpiler = require("include.transpiler")
 
 function Main()
@@ -19,7 +20,7 @@ function Main()
     repeat
         out.good("Path to Black Mesa map: ")
         xenMapPath = "../" .. io.read()
-        xenMap = io.open(xenMapPath)
+        xenMap = io.open(xenMapPath, "r")
         if xenMap then
             validPath = true
         else
@@ -29,29 +30,31 @@ function Main()
     local xenMapFileName = xenMapPath:match("[^/\\]+$")
 
     out.info("Parsing .vmf into table...")
+    xenMap = io.open(xenMapPath)
     local parsedXenMap, linesParsed, timeTaken = vmfparse.parseFromFile(xenMap)
     out.good("Parsing completed! Parsing took " .. timeTaken .. " seconds, parsed " .. linesParsed .. " lines and recorded " .. #parsedXenMap .. " entities.")
-    
-    out.info("Transpiling...")
+   
+
+    out.info("Transpiling... (this could take a while)")
     local transpiledTable, incompats = transpiler.transpile(parsedXenMap)
-    out.good("Transpiling completed! " .. #transpiledTable .. " entities transpiled, and there were " .. #incompats .. " incompatible *types* (not entities).")
+    out.good("Transpiling completed! " .. std.table.count(transpiledTable).. " entities transpiled, and there were " .. #incompats .. " incompatible *types* (not entities).")
 
     out.info("Reverse parsing...")
     local finalString = vmfparse.tableToString(transpiledTable)
     out.good("Reverse parse completed!")
 
-
-    local output = io.open("../output/".. xenMapFileName, "w")
+    local output = io.open("../output/".. xenMapFileName, "w+")
     output:write(finalString)
-    local log = io.open("../output/" .. xenMapFileName .. ".log", "w")
+    output:close()
+    local log = io.open("../output/" .. xenMapFileName .. ".log", "w+")
     log:write(out.getLog())
+    log:close()
     out.info("These were the incompatible types: ")
 
     out.table(incompats)
 
     out.good(".VMF written to '/output'! Have a very SAFE day :)")
     os.execute("pause")
-    
 end
 
 Main()

@@ -12,14 +12,20 @@ More purposeful modules handle the specifics.
 ]]
 local vmfparse = require("include.vmfparse")
 local out = require("include.output")
+local connections = require("include.connections")
 
+local AttributeClass = require("include.classes.attribute")
+local BlockClass = require("include.classes.block")
+
+TRANSPILER_PASSES = 3
 
 local trans = {}
 
 
 function trans.transpile(vmfTable)
-    local postTranspileTable = {}
     local incompats = {}
+    local allTargetNames = {}
+    local pass = 0
     local sourceNamesFile = io.open("resources/lists/SourceClassnames.txt")
     if not sourceNamesFile then
         out.bad("Cannot continue transpiler. SourceClassnames.txt not found in resources/lists")
@@ -27,57 +33,73 @@ function trans.transpile(vmfTable)
     end
     local sourceNames = sourceNamesFile:read("a")
 
-    -- go through all entities in the vmfTable 
-    local function transpileEntity(block, metadata, class, uniqueName)
+    -- go through all entities in the vmfTable
+    ---@param block BlockClass
+    local function transpileEntity(block)
         -- is the entity a source entity?
-        if not (string.find(sourceNames, block["classname"], 1, true)) then
-            local found = false
-            for _, val in pairs(incompats) do
-                if val == block['classname'] then
-                    found = true
+        if pass == 1 then
+            --print("doing")
+            local class = block:GetAttributes("classname")[1].value
+            if not (string.find(sourceNames, class, 1, true)) then
+                local found = false
+                for _, val in pairs(incompats) do
+                    if val == class then
+                        found = true
+                    end
+                end
+                if found == false then
+                    table.insert(incompats, class)
+                end
+                return nil
+            else
+                ---@type Attribute
+                local targetName = block:GetAttributes("targetname")[1]
+                if targetName then
+                    table.insert(allTargetNames, targetName.value)
                 end
             end
-            if found == false then
-                table.insert(incompats, block['classname'])
+        elseif pass == 2 then
+            local obj = block:GetBlocks("connections")
+            if obj then
+                local newBlock = connections.transpile(block, allTargetNames)
+                return block
             end
-            return nil
         end
-        
-        -- any checks and modification on the entity go here 
-        local obj, unqid = vmfparse.attributeOrTable("connections", block)
-        if unqid then
-           block[unqid] = nil 
-        end
-        
         return block
     end
 
-    for _, block in pairs(vmfTable) do
-        local metadata = block['vmf_parser_metadata']
-        local class = metadata['vmf_parser_blockname']
-        local uniqueName = metadata['vmf_parser_uniquename']
-
-        if class == "world" then
-            if block['comment'] then
-                block['comment'] = table.concat({
-                    block['comment'],
-                    " and transpiled using Black Mesa Source Transpiler by talkinglock!"
-                })
+    
+    for pass_i = 1, TRANSPILER_PASSES do
+        pass = pass_i
+        for ind, block in pairs(vmfTable) do
+            ---@cast block BlockClass
+            local class = block:GetClassname()
+            local uniqueID = block:GetUniqueId()
+            if class == "world" then
+                ---@type Attribute|nil
+                local comment = block:GetAttributes("comment") and block:GetAttributes("comment")[0] or nil
+                if comment then
+                    comment.value = table.concat({
+                        comment.value,
+                        " and transpiled using Black Mesa Source Transpiler by talkinglock!"
+                    })
+                end
             end
-        end
-        if class ~= "entity" then
-            table.insert(postTranspileTable, block)
-            goto continue
-        end
+            if class ~= "entity" then
+                goto continue
+            end
 
-        local toBeAdded = transpileEntity(block, metadata, class, uniqueName)
-        if not (toBeAdded == nil) then
-            table.insert(postTranspileTable, toBeAdded)
+            local toBeAdded = transpileEntity(block)
+            if toBeAdded then
+                vmfTable[uniqueID] = toBeAdded
+            else
+                vmfTable[uniqueID] = nil
+            end
+
+            ::continue::
         end
-        ::continue::
     end
-    return postTranspileTable, incompats
+    return vmfTable, incompats
 end
-
 
 return trans;
