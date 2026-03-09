@@ -1,0 +1,9 @@
+metadata
+{
+	"replacename" "item_weapon_shotgun"
+	"type" "direct"
+	direct
+	{
+		"name" "weapon_shotgun"
+	}
+}

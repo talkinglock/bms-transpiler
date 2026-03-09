@@ -81,7 +81,7 @@ local function isConnectorStable(connector, allTargetNames)
             return true
         end
     end
-    return false
+    return true
 end
 
 ---@param block BlockClass
@@ -90,7 +90,7 @@ function m.transpile(block, allTargetNames)
     -- TODO: Add refab support
     ---@type BlockClass
     local connectionBlock = block:GetBlocks("connections")[1]
-    if not connectionBlock then return end
+    if not connectionBlock then return nil end
     local parsedConnections = parseConnections(connectionBlock)
     local passingConnectors = {}
 

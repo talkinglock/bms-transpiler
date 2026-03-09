@@ -46,13 +46,16 @@ function Main()
     local output = io.open("../output/".. xenMapFileName, "w+")
     output:write(finalString)
     output:close()
-    local log = io.open("../output/" .. xenMapFileName .. ".log", "w+")
-    log:write(out.getLog())
-    log:close()
+
     out.info("These were the incompatible types: ")
 
     out.table(incompats)
 
+    local log = io.open("../output/" .. xenMapFileName .. ".log", "w+")
+    log:write(out.getLog())
+    log:close()
+    
+    
     out.good(".VMF written to '/output'! Have a very SAFE day :)")
     os.execute("pause")
 end

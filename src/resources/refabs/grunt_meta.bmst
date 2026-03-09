@@ -1,0 +1,9 @@
+metadata
+{
+	"replacename" "npc_human_grunt"
+	"type" "direct"
+	direct
+	{
+		"name" "npc_combine_s"
+	}
+}

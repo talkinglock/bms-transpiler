@@ -1,7 +1,10 @@
 ---@class Connector
 local Connector = {}
 Connector.__index = Connector
-
+Connector.__tostring = 
+function (v)
+    return "Connector"
+end
 
 function Connector.new(
         inEvent,

@@ -1,0 +1,9 @@
+metadata
+{
+	"replacename" "item_weapon_glock"
+	"type" "direct"
+	direct
+	{
+		"name" "weapon_pistol"
+	}
+}

@@ -1,0 +1,9 @@
+metadata
+{
+	"replacename" "item_crate"
+	"type" "direct"
+	direct
+	{
+		"name" "prop_physics"
+	}
+}

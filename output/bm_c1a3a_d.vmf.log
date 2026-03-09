@@ -1,0 +1,1069 @@
+[INFO] ################
+[INFO] BMSS TRANSPILER
+[INFO] ################
+[GOOD] Path to Black Mesa map: 
+[INFO] Parsing .vmf into table...
+[GOOD] Parsing completed! Parsing took 0.356 seconds, parsed 592011 lines and recorded 5933 entities.
+[INFO] Transpiling... (this could take a while)
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for npc_sentry_ground. Expected behavior.
+[INFO] No refab detected for npc_sentry_ground. Expected behavior.
+[INFO] No refab detected for npc_sentry_ground. Expected behavior.
+[INFO] No refab detected for npc_sentry_ground. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for grenade_tripmine. Expected behavior.
+[INFO] No refab detected for grenade_tripmine. Expected behavior.
+[INFO] No refab detected for grenade_tripmine. Expected behavior.
+[INFO] No refab detected for npc_sentry_ground. Expected behavior.
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[GOOD] Refab parsed [item_weapon_glock] -> [weapon_pistol]
+[INFO] No refab detected for item_weapon_crowbar. Expected behavior.
+[GOOD] Refab parsed [item_weapon_shotgun] -> [weapon_shotgun]
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[GOOD] Refab parsed [item_weapon_shotgun] -> [weapon_shotgun]
+[INFO] No refab detected for item_ammo_shotgun. Expected behavior.
+[INFO] No refab detected for item_ammo_shotgun. Expected behavior.
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for npc_alien_slave. Expected behavior.
+[INFO] No refab detected for env_xen_portal_template. Expected behavior.
+[INFO] No refab detected for env_xen_portal_template. Expected behavior.
+[INFO] No refab detected for npc_alien_slave. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[GOOD] Refab parsed [npc_zombie_scientist] -> [npc_zombie]
+[GOOD] Refab parsed [item_weapon_glock] -> [weapon_pistol]
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[GOOD] Refab parsed [npc_human_scientist] -> [npc_citizen]
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[GOOD] Refab parsed [item_weapon_glock] -> [weapon_pistol]
+[INFO] No refab detected for env_dispenser. Expected behavior.
+[INFO] No refab detected for env_dispenser. Expected behavior.
+[INFO] No refab detected for env_dispenser. Expected behavior.
+[INFO] No refab detected for npc_alien_slave. Expected behavior.
+[INFO] No refab detected for npc_human_grunt. Expected behavior.
+[GOOD] Refab parsed [npc_human_scientist] -> [npc_citizen]
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for env_xen_portal. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_weapon_mp5. Expected behavior.
+[INFO] No refab detected for item_ammo_shotgun. Expected behavior.
+[INFO] No refab detected for npc_human_grunt. Expected behavior.
+[INFO] No refab detected for npc_human_grunt. Expected behavior.
+[INFO] No refab detected for fog_volume. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for filter_activator_model. Expected behavior.
+[INFO] No refab detected for filter_activator_model. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for grenade_tripmine. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for npc_sentry_ground. Expected behavior.
+[INFO] No refab detected for npc_sentry_ground. Expected behavior.
+[GOOD] Refab parsed [npc_human_scientist] -> [npc_citizen]
+[GOOD] Refab parsed [npc_human_scientist] -> [npc_citizen]
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for item_ammo_shotgun. Expected behavior.
+[GOOD] Refab parsed [item_weapon_shotgun] -> [weapon_shotgun]
+[GOOD] Refab parsed [npc_human_security] -> [npc_citizen]
+[GOOD] Refab parsed [npc_zombie_security] -> [npc_zombie]
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[GOOD] Refab parsed [npc_human_scientist] -> [npc_citizen]
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [139] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [196] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [198] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [201] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [205] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [206] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [207] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [208] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [209] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [250] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [251] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [287] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [295] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [354] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [357] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [362] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [365] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [366] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [368] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [372] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [373] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [378] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [382] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [385] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [531] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [562] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [579] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [580] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [591] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [592] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [593] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [606] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [607] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [608] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [618] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [619] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [621] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [728] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [734] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [823] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [828] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1082] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1083] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1206] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1251] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1252] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1253] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1254] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1255] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1257] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1258] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1260] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1262] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1396] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1427] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1429] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1431] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1444] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1445] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1446] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1457] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1458] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1488] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1489] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1490] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1491] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1492] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1494] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1512] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1515] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1517] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1520] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1530] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1532] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1546] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1558] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1560] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1677] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1682] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1683] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1684] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1686] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1687] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1688] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1689] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1691] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1733] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1734] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1735] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1736] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1825] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1858] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1867] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1872] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1873] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1899] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1900] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1906] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1911] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1914] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1917] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1918] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1924] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1925] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1929] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1930] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1931] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1932] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1933] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [1962] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1993] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [1994] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2001] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2002] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2004] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2009] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2010] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2013] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2024] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2030] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2031] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2032] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2033] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2034] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2038] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2041] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2042] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2050] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2051] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2070] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2134] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2137] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2138] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2139] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2142] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2193] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2195] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2196] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2197] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2198] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2199] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2200] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2201] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2281] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2282] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2283] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2285] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2286] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2287] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2289] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2290] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2291] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2292] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2293] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2301] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2317] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2324] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2337] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2379] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2381] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2384] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2385] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2386] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2391] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2394] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2397] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2399] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2405] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2406] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2407] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2417] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2427] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2431] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2432] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2433] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2444] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2445] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2446] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2460] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2461] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2462] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2467] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2468] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2469] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2472] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2475] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2476] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2478] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2481] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2482] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2483] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2495] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2504] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2505] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2506] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] Using ',' seperator
+[INFO] [2507] Connections transpiled.
+[INFO] Using ',' seperator
+[INFO] [2512] Connections transpiled.
+[GOOD] Transpiling completed! 5825 entities transpiled, and there were 25 incompatible *types* (not entities).
+[INFO] Reverse parsing...
+[GOOD] Reverse parse completed!
+[INFO] These were the incompatible types: 
+[INFO] newLight_Spot
+[INFO] item_crate
+[INFO] npc_sentry_ground
+[INFO] grenade_tripmine
+[INFO] item_ammo_mp5
+[INFO] item_weapon_glock
+[INFO] item_weapon_crowbar
+[INFO] item_weapon_shotgun
+[INFO] item_ammo_glock
+[INFO] item_ammo_shotgun
+[INFO] env_xen_portal
+[INFO] npc_alien_slave
+[INFO] env_xen_portal_template
+[INFO] newLight_Point
+[INFO] item_weapon_frag
+[INFO] npc_zombie_scientist
+[INFO] npc_human_scientist
+[INFO] env_dispenser
+[INFO] npc_human_grunt
+[INFO] item_weapon_mp5
+[INFO] fog_volume
+[INFO] filter_activator_model
+[INFO] env_lensflare
+[INFO] npc_human_security
+[INFO] npc_zombie_security
