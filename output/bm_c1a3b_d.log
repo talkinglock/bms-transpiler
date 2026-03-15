@@ -480,6 +480,7 @@ Level flags = 0
 Total triangle count: 35138
 Writing c:\modding\mo2\bmsvr2026\bmss_translator\output\bm_c1a3b_d.bsp
 36 seconds elapsed
+<<<<<<< HEAD
 
 
 
@@ -703,3 +704,5 @@ Level flags = 0
 Total triangle count: 35115
 Writing c:\modding\mo2\bmsvr2026\bmss_translator\output\bm_c1a3b_d.bsp
 37 seconds elapsed
+=======
+>>>>>>> e413d3818faff80df26a1b2890eefeb2c3f505ac

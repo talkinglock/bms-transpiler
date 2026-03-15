@@ -80,16 +80,7 @@ local function isConnectorStable(connector, allTargetNames)
             return true
         end
     end
-    return true
-end
-
-
---
----@param refab RefabClass
----@param refabConnector Connector
----@param connector Connector
-function m.RefabricateConnector(refab, refabConnector, connector)
-
+    return false
 end
 
 ---@param block BlockClass

@@ -3,7 +3,11 @@
 [INFO] ################
 [GOOD] Path to Black Mesa map: 
 [INFO] Parsing .vmf into table...
+<<<<<<< HEAD
 [GOOD] Parsing completed! Parsing took 0.205 seconds, parsed 331825 lines and recorded 5874 entities.
+=======
+[GOOD] Parsing completed! Parsing took 0.219 seconds, parsed 331825 lines and recorded 5874 entities.
+>>>>>>> e413d3818faff80df26a1b2890eefeb2c3f505ac
 [INFO] Transpiling... (this could take a while)
 [GOOD] Refab parsed [item_crate] -> [prop_physics]
 [GOOD] Refab parsed [item_crate] -> [prop_physics]

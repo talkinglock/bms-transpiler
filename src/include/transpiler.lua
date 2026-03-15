@@ -16,14 +16,21 @@ local out = require("include.output")
 local std = require("include.std.standard")
 local G = require("include.GLOBALS")
 
+local std = require("include.std.standard")
+local G = require("include.GLOBALS")
+
 local connections = require("include.connections")
+local refabs = require("include.refabs")
 local refabs = require("include.refabs")
 
 local AttributeClass = require("include.classes.attribute")
 local BlockClass = require("include.classes.block")
 local RefabClass = require("include.classes.RefabClass")
 
+local RefabClass = require("include.classes.RefabClass")
 
+
+TRANSPILER_PASSES = 2
 TRANSPILER_PASSES = 2
 
 local trans = {}
@@ -39,6 +46,7 @@ function trans.transpile(vmfTable)
         return
     end
 
+
     local sourceNames = sourceNamesFile:read("a")
     -- go through all entities in the vmfTable
     ---@param block BlockClass
@@ -48,6 +56,7 @@ function trans.transpile(vmfTable)
         if pass == 1  then
             --print(#incompats)
             local class = block:GetAttributes("classname")[1].value
+            if not (string.find(sourceNames, G.SOURCETEXT_DELIMITER .. class, 1, true)) then
             if not (string.find(sourceNames, G.SOURCETEXT_DELIMITER .. class, 1, true)) then
                 local found = false
                 for _, val in pairs(incompats) do
@@ -71,6 +80,7 @@ function trans.transpile(vmfTable)
                 if targetName then
                     table.insert(allTargetNames, targetName.value)
                     return block
+                    return block
                 end
             end
         elseif pass == 2 then
@@ -93,11 +103,14 @@ function trans.transpile(vmfTable)
         pass = pass_i
         local newList = {}
         for _, block in pairs(vmfTable) do
+        local newList = {}
+        for _, block in pairs(vmfTable) do
             ---@cast block BlockClass
             local class = block:GetClassname()
             local uniqueID = block:GetUniqueId()
             if class == "world" then
                 ---@type Attribute|nil
+                local comment = block:GetAttributes("comment") and block:GetAttributes("comment")[1] or nil
                 local comment = block:GetAttributes("comment") and block:GetAttributes("comment")[1] or nil
                 if comment then
                     comment.value = table.concat({
@@ -107,6 +120,7 @@ function trans.transpile(vmfTable)
                 end
             end
             if class ~= "entity" then
+                table.insert(newList, block)
                 table.insert(newList, block)
                 goto continue
             end
@@ -130,6 +144,7 @@ function trans.transpile(vmfTable)
             end
             ::continue::
         end
+        vmfTable = newList
         vmfTable = newList
     end
     return vmfTable, incompats
