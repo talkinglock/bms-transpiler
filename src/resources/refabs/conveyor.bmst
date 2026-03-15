@@ -1,0 +1,9 @@
+metadata
+{
+	"replacename" "func_conveyor_bms"
+	"type" "direct"
+	direct
+	{
+		"name" "func_detail"
+	}
+}

@@ -1,0 +1,12 @@
+pointer
+{
+    "item_weapon_glock" "glock_meta.bmst"
+	"item_weapon_shotgun" "shotgun_meta.bmst"
+	"item_crate" "crate_meta.bmst"
+	"npc_human_scientist" "scientist_meta.bmst"
+	"npc_human_security" "guard_meta.bmst"
+	"npc_zombie_scientist" "scientist_zombie_meta.bmst"
+	"npc_zombie_security" "guard_zombie_meta.bmst"
+	"npc_human_grunt" "grunt_meta.bmst"
+	"func_conveyor_detail" "conveyor.bmst"
+}

@@ -4,7 +4,6 @@
     A. Only connect objects that exist
     B. Change connector classnames and events to match that of any refabs.
 ]]
-
 local out = require("include.output")
 local std = require("include.std.standard")
 local ConnectorType = require("include.classes.connector")
@@ -51,7 +50,7 @@ local function parseConnections(block)
     return final
 end
 
-local function deparseConnections(connectionTable)
+function m.deparseConnections(connectionTable)
     local final = {}
     --"OnTrigger" "door_ele_lOpen0-1" unparsed example of connector.
     for _, connector in pairs(connectionTable) do
@@ -81,28 +80,55 @@ local function isConnectorStable(connector, allTargetNames)
             return true
         end
     end
-    return false
+    return true
+end
+
+
+--
+---@param refab RefabClass
+---@param refabConnector Connector
+---@param connector Connector
+function m.RefabricateConnector(refab, refabConnector, connector)
+
 end
 
 ---@param block BlockClass
 ---@param allTargetNames table
-function m.transpile(block, allTargetNames)
+---@param refabs table 
+function m.transpile(block, allTargetNames, refabs)
     -- TODO: Add refab support
     ---@type BlockClass
     local connectionBlock = block:GetBlocks("connections")[1]
-    if not connectionBlock then return end
+    if not connectionBlock then return nil end
     local parsedConnections = parseConnections(connectionBlock)
     local passingConnectors = {}
 
     for _, connector in pairs(parsedConnections) do
         local stable = isConnectorStable(connector, allTargetNames)
-        if stable then          
+        if stable then
+            local targetName = connector.targetName
+            
+            for _, refab in pairs(refabs) do
+                ---@cast refab RefabClass
+                ---@type table<nil, Connector>
+                local connectorList = refab:GetConnectorListFromTargetName(targetName)
+                if not connectorList then
+                    goto refabContinue
+                end
+                for _, refabConnector in pairs(connectorList) do
+                    if refabConnector.targetName == targetName then
+                        connector = m.RefabricateConnector(refab, refabConnector, connector)
+                    end
+                end
+                ::refabContinue::
+            end
+
             table.insert(passingConnectors, connector)
         end
     end
     
     -- finished processing connectors, now re-table-ify it to be later string-ified
-    local deparsedConnections = deparseConnections(passingConnectors)
+    local deparsedConnections = m.deparseConnections(passingConnectors)
     connectionBlock:SetAttributesToTable(deparsedConnections)
     out.log("[".. block:GetUniqueId() .. "] Connections transpiled.")
     return block

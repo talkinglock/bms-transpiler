@@ -1,0 +1,9 @@
+metadata
+{
+	"replacename" "npc_human_security"
+	"type" "direct"
+	direct
+	{
+		"name" "npc_citizen"
+	}
+}

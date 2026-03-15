@@ -1,0 +1,9 @@
+metadata
+{
+	"replacename" "npc_sentry_ground"
+	"type" "direct"
+	direct
+	{
+		"name" "npc_turret_floor"
+	}
+}

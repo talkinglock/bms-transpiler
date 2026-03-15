@@ -82,6 +82,8 @@ end
 
 function vmfp.parseFromFile(file)
     local vmfTable = {}
+    
+    
     local braceCount = 0
     local lastBraceCount = 0
     local depth = 0
@@ -146,7 +148,6 @@ function vmfp.parseFromFile(file)
         lastLine = line
         lastBraceCount = braceCount
     end
-
     local lineCount = 0
     for line in file:lines() do
         lineCount = lineCount + 1

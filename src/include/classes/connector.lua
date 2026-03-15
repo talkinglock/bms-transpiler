@@ -1,7 +1,18 @@
 ---@class Connector
-local Connector = {}
+local Connector = {
+    inEvent = nil,
+    targetName = nil,
+    outEvent = nil,
+    parameterOverride = nil,
+    delay = nil,
+    fireOnce = nil,
+    seperator = nil
+}
 Connector.__index = Connector
-
+Connector.__tostring = 
+function (v)
+    return "Connector"
+end
 
 function Connector.new(
         inEvent,

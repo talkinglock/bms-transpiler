@@ -3,12 +3,15 @@ local attClass = require("include.classes.attribute")
 local out = require("include.output")
 
 ---@class BlockClass
-local BlockClass = {}
+local BlockClass = {
+    xenExclusive = false
+}
 
 BlockClass.__tostring = 
 function (v)
     return "BlockClass"
 end
+
 
 BlockClass.__index = BlockClass
 
@@ -23,6 +26,14 @@ function BlockClass.new(parentBlock, classname, uniqueid)
     self['blocks'] = {}
     self['attributes'] = {}
     return self
+end
+
+---@param newBlock BlockClass
+---@return nil
+function BlockClass:Replace(newBlock)
+    self['meta'] = newBlock['meta']
+    self['blocks'] = newBlock['blocks']
+    self['attributes'] = newBlock['attributes']
 end
 
 ---@param attributeTable table Sets block list to table of attributes, without preserving the old attributes
@@ -103,7 +114,12 @@ function BlockClass:AddBlock(block, exclusive)
 end
 
 -- Adds block to another attribute. Attributes must be initialized!
-function BlockClass:AddAttribute(attribute)
+---@param attribute Attribute to add
+---@param exclusive? boolean Makes attribute the only one of its name allowed, removes others of same name 
+function BlockClass:AddAttribute(attribute, exclusive)
+    if exclusive then
+        self:RemoveAttributes(attribute.attribute)
+    end
     if not self['attributes'] then
         self['attributes'] = {}  
     end
@@ -112,11 +128,14 @@ end
 
 --- Removes all attributes with this name
 function BlockClass:RemoveAttributes(attributeName)
-    local matchingAtts = self:GetAttributes(attributeName)
-    if matchingAtts then
-        for _, att in pairs(matchingAtts) do
+    local atts = self:GetAllAttributes()
+    if atts then
+        for ind, att in pairs(atts) do
             ---@cast att Attribute
-            att:Destroy()
+            if att.attribute == attributeName then
+                self['attributes'][ind] = nil
+                --print(att.attribute)
+            end
         end
     end
 end

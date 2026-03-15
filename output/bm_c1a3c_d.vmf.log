@@ -1,0 +1,522 @@
+[INFO] ################
+[INFO] BMSS TRANSPILER
+[INFO] ################
+[GOOD] Path to Black Mesa map: 
+[INFO] Parsing .vmf into table...
+[GOOD] Parsing completed! Parsing took 0.118 seconds, parsed 208737 lines and recorded 3060 entities.
+[INFO] Transpiling... (this could take a while)
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[INFO] No refab detected for env_lensflare. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for npc_human_medic. Expected behavior.
+[INFO] No refab detected for npc_human_commander. Expected behavior.
+[GOOD] Refab parsed [npc_human_grunt] -> [npc_combine_s]
+[GOOD] Refab parsed [npc_human_grunt] -> [npc_combine_s]
+[GOOD] Refab parsed [npc_human_grunt] -> [npc_combine_s]
+[INFO] No refab detected for npc_human_medic. Expected behavior.
+[GOOD] Refab parsed [npc_human_grunt] -> [npc_combine_s]
+[INFO] No refab detected for npc_human_commander. Expected behavior.
+[INFO] No refab detected for npc_osprey. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[GOOD] Refab parsed [npc_human_grunt] -> [npc_combine_s]
+[INFO] No refab detected for npc_osprey. Expected behavior.
+[GOOD] Refab parsed [npc_human_grunt] -> [npc_combine_s]
+[GOOD] Refab parsed [npc_human_grunt] -> [npc_combine_s]
+[INFO] No refab detected for env_mortar_launcher. Expected behavior.
+[INFO] No refab detected for env_mortar_launcher. Expected behavior.
+[INFO] No refab detected for env_mortar_launcher. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for env_mortar_launcher. Expected behavior.
+[INFO] No refab detected for env_mortar_launcher. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for env_mortar_launcher. Expected behavior.
+[INFO] No refab detected for env_mortar_launcher. Expected behavior.
+[INFO] No refab detected for env_mortar_launcher. Expected behavior.
+[GOOD] Refab parsed [item_weapon_glock] -> [weapon_pistol]
+[INFO] No refab detected for item_weapon_crowbar. Expected behavior.
+[GOOD] Refab parsed [item_weapon_shotgun] -> [weapon_shotgun]
+[INFO] No refab detected for item_weapon_frag. Expected behavior.
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[INFO] No refab detected for item_ammo_glock. Expected behavior.
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for item_grenade_mp5. Expected behavior.
+[INFO] No refab detected for item_weapon_mp5. Expected behavior.
+[INFO] No refab detected for item_weapon_mp5. Expected behavior.
+[INFO] No refab detected for item_ammo_shotgun. Expected behavior.
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for item_ammo_mp5. Expected behavior.
+[INFO] No refab detected for fog_volume. Expected behavior.
+[INFO] No refab detected for newLight_Dir. Expected behavior.
+[INFO] No refab detected for newLight_Point. Expected behavior.
+[INFO] No refab detected for env_cascade_light. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[INFO] No refab detected for newLight_Spot. Expected behavior.
+[GOOD] Refab parsed [item_crate] -> [prop_physics]
+[INFO] No refab detected for filter_damage_class. Expected behavior.
+[INFO] No refab detected for func_viscluster. Expected behavior.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [114] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [154] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [283] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [287] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [288] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [367] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [368] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [369] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [370] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [371] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [374] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [375] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [376] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [378] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [380] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [381] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [382] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [383] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [597] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [598] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [607] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [668] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [737] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [772] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [773] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [774] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [776] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [777] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [778] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [779] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [780] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [781] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [782] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [783] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [784] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [787] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [795] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [799] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [801] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [835] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [836] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [841] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [852] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [855] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [857] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [858] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [859] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [860] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [863] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [867] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [868] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [869] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [915] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [916] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [918] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [928] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [929] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [937] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [943] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [946] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [952] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [954] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [955] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [956] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [957] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [958] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [977] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [984] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [987] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [990] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [991] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1000] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1014] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1027] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1029] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1039] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1045] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1050] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1059] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1061] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1062] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1121] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1122] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1123] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1124] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1127] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1131] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1133] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1138] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1139] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1157] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] Using ESC seperator
+[INFO] [1172] Connections transpiled.
+[INFO] Using ESC seperator
+[INFO] [1208] Connections transpiled.
+[GOOD] Transpiling completed! 3009 entities transpiled, and there were 23 incompatible *types* (not entities).
+[INFO] Reverse parsing...
+[GOOD] Reverse parse completed!
+[INFO] These were the incompatible types: 
+[INFO] item_crate
+[INFO] newLight_Point
+[INFO] env_lensflare
+[INFO] newLight_Spot
+[INFO] npc_human_medic
+[INFO] npc_human_commander
+[INFO] npc_human_grunt
+[INFO] npc_osprey
+[INFO] env_mortar_launcher
+[INFO] item_weapon_glock
+[INFO] item_weapon_crowbar
+[INFO] item_weapon_shotgun
+[INFO] item_weapon_frag
+[INFO] item_ammo_glock
+[INFO] item_ammo_mp5
+[INFO] item_grenade_mp5
+[INFO] item_weapon_mp5
+[INFO] item_ammo_shotgun
+[INFO] fog_volume
+[INFO] newLight_Dir
+[INFO] env_cascade_light
+[INFO] filter_damage_class
+[INFO] func_viscluster
